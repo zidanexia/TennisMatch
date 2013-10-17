@@ -1,0 +1,490 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CEB01B88180E6C7900ECD41C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEB01B87180E6C7900ECD41C /* Foundation.framework */; };
+		CEB01B8A180E6C7900ECD41C /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEB01B89180E6C7900ECD41C /* CoreGraphics.framework */; };
+		CEB01B8C180E6C7900ECD41C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEB01B8B180E6C7900ECD41C /* UIKit.framework */; };
+		CEB01B92180E6C7900ECD41C /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = CEB01B90180E6C7900ECD41C /* InfoPlist.strings */; };
+		CEB01B94180E6C7900ECD41C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CEB01B93180E6C7900ECD41C /* main.m */; };
+		CEB01B98180E6C7900ECD41C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CEB01B97180E6C7900ECD41C /* AppDelegate.m */; };
+		CEB01B9B180E6C7900ECD41C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CEB01B99180E6C7900ECD41C /* Main.storyboard */; };
+		CEB01B9E180E6C7900ECD41C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CEB01B9D180E6C7900ECD41C /* ViewController.m */; };
+		CEB01BA0180E6C7900ECD41C /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CEB01B9F180E6C7900ECD41C /* Images.xcassets */; };
+		CEB01BA7180E6C7A00ECD41C /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEB01BA6180E6C7A00ECD41C /* XCTest.framework */; };
+		CEB01BA8180E6C7A00ECD41C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEB01B87180E6C7900ECD41C /* Foundation.framework */; };
+		CEB01BA9180E6C7A00ECD41C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEB01B8B180E6C7900ECD41C /* UIKit.framework */; };
+		CEB01BB1180E6C7A00ECD41C /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = CEB01BAF180E6C7A00ECD41C /* InfoPlist.strings */; };
+		CEB01BB3180E6C7A00ECD41C /* TennisMatchTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CEB01BB2180E6C7A00ECD41C /* TennisMatchTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CEB01BAA180E6C7A00ECD41C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CEB01B7C180E6C7900ECD41C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CEB01B83180E6C7900ECD41C;
+			remoteInfo = TennisMatch;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CEB01B84180E6C7900ECD41C /* TennisMatch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TennisMatch.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CEB01B87180E6C7900ECD41C /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		CEB01B89180E6C7900ECD41C /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		CEB01B8B180E6C7900ECD41C /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		CEB01B8F180E6C7900ECD41C /* TennisMatch-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TennisMatch-Info.plist"; sourceTree = "<group>"; };
+		CEB01B91180E6C7900ECD41C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		CEB01B93180E6C7900ECD41C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		CEB01B95180E6C7900ECD41C /* TennisMatch-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "TennisMatch-Prefix.pch"; sourceTree = "<group>"; };
+		CEB01B96180E6C7900ECD41C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		CEB01B97180E6C7900ECD41C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		CEB01B9A180E6C7900ECD41C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CEB01B9C180E6C7900ECD41C /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		CEB01B9D180E6C7900ECD41C /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		CEB01B9F180E6C7900ECD41C /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		CEB01BA5180E6C7A00ECD41C /* TennisMatchTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TennisMatchTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CEB01BA6180E6C7A00ECD41C /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		CEB01BAE180E6C7A00ECD41C /* TennisMatchTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TennisMatchTests-Info.plist"; sourceTree = "<group>"; };
+		CEB01BB0180E6C7A00ECD41C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		CEB01BB2180E6C7A00ECD41C /* TennisMatchTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TennisMatchTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CEB01B81180E6C7900ECD41C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CEB01B8A180E6C7900ECD41C /* CoreGraphics.framework in Frameworks */,
+				CEB01B8C180E6C7900ECD41C /* UIKit.framework in Frameworks */,
+				CEB01B88180E6C7900ECD41C /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CEB01BA2180E6C7A00ECD41C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CEB01BA7180E6C7A00ECD41C /* XCTest.framework in Frameworks */,
+				CEB01BA9180E6C7A00ECD41C /* UIKit.framework in Frameworks */,
+				CEB01BA8180E6C7A00ECD41C /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CEB01B7B180E6C7900ECD41C = {
+			isa = PBXGroup;
+			children = (
+				CEB01B8D180E6C7900ECD41C /* TennisMatch */,
+				CEB01BAC180E6C7A00ECD41C /* TennisMatchTests */,
+				CEB01B86180E6C7900ECD41C /* Frameworks */,
+				CEB01B85180E6C7900ECD41C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CEB01B85180E6C7900ECD41C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CEB01B84180E6C7900ECD41C /* TennisMatch.app */,
+				CEB01BA5180E6C7A00ECD41C /* TennisMatchTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CEB01B86180E6C7900ECD41C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CEB01B87180E6C7900ECD41C /* Foundation.framework */,
+				CEB01B89180E6C7900ECD41C /* CoreGraphics.framework */,
+				CEB01B8B180E6C7900ECD41C /* UIKit.framework */,
+				CEB01BA6180E6C7A00ECD41C /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CEB01B8D180E6C7900ECD41C /* TennisMatch */ = {
+			isa = PBXGroup;
+			children = (
+				CEB01B96180E6C7900ECD41C /* AppDelegate.h */,
+				CEB01B97180E6C7900ECD41C /* AppDelegate.m */,
+				CEB01B99180E6C7900ECD41C /* Main.storyboard */,
+				CEB01B9C180E6C7900ECD41C /* ViewController.h */,
+				CEB01B9D180E6C7900ECD41C /* ViewController.m */,
+				CEB01B9F180E6C7900ECD41C /* Images.xcassets */,
+				CEB01B8E180E6C7900ECD41C /* Supporting Files */,
+			);
+			path = TennisMatch;
+			sourceTree = "<group>";
+		};
+		CEB01B8E180E6C7900ECD41C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CEB01B8F180E6C7900ECD41C /* TennisMatch-Info.plist */,
+				CEB01B90180E6C7900ECD41C /* InfoPlist.strings */,
+				CEB01B93180E6C7900ECD41C /* main.m */,
+				CEB01B95180E6C7900ECD41C /* TennisMatch-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		CEB01BAC180E6C7A00ECD41C /* TennisMatchTests */ = {
+			isa = PBXGroup;
+			children = (
+				CEB01BB2180E6C7A00ECD41C /* TennisMatchTests.m */,
+				CEB01BAD180E6C7A00ECD41C /* Supporting Files */,
+			);
+			path = TennisMatchTests;
+			sourceTree = "<group>";
+		};
+		CEB01BAD180E6C7A00ECD41C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CEB01BAE180E6C7A00ECD41C /* TennisMatchTests-Info.plist */,
+				CEB01BAF180E6C7A00ECD41C /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CEB01B83180E6C7900ECD41C /* TennisMatch */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CEB01BB6180E6C7A00ECD41C /* Build configuration list for PBXNativeTarget "TennisMatch" */;
+			buildPhases = (
+				CEB01B80180E6C7900ECD41C /* Sources */,
+				CEB01B81180E6C7900ECD41C /* Frameworks */,
+				CEB01B82180E6C7900ECD41C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TennisMatch;
+			productName = TennisMatch;
+			productReference = CEB01B84180E6C7900ECD41C /* TennisMatch.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CEB01BA4180E6C7A00ECD41C /* TennisMatchTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CEB01BB9180E6C7A00ECD41C /* Build configuration list for PBXNativeTarget "TennisMatchTests" */;
+			buildPhases = (
+				CEB01BA1180E6C7A00ECD41C /* Sources */,
+				CEB01BA2180E6C7A00ECD41C /* Frameworks */,
+				CEB01BA3180E6C7A00ECD41C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CEB01BAB180E6C7A00ECD41C /* PBXTargetDependency */,
+			);
+			name = TennisMatchTests;
+			productName = TennisMatchTests;
+			productReference = CEB01BA5180E6C7A00ECD41C /* TennisMatchTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CEB01B7C180E6C7900ECD41C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = "Lingli Peng";
+				TargetAttributes = {
+					CEB01B83180E6C7900ECD41C = {
+						DevelopmentTeam = 3VUTJA9W46;
+					};
+					CEB01BA4180E6C7A00ECD41C = {
+						TestTargetID = CEB01B83180E6C7900ECD41C;
+					};
+				};
+			};
+			buildConfigurationList = CEB01B7F180E6C7900ECD41C /* Build configuration list for PBXProject "TennisMatch" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CEB01B7B180E6C7900ECD41C;
+			productRefGroup = CEB01B85180E6C7900ECD41C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CEB01B83180E6C7900ECD41C /* TennisMatch */,
+				CEB01BA4180E6C7A00ECD41C /* TennisMatchTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CEB01B82180E6C7900ECD41C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CEB01BA0180E6C7900ECD41C /* Images.xcassets in Resources */,
+				CEB01B92180E6C7900ECD41C /* InfoPlist.strings in Resources */,
+				CEB01B9B180E6C7900ECD41C /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CEB01BA3180E6C7A00ECD41C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CEB01BB1180E6C7A00ECD41C /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CEB01B80180E6C7900ECD41C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CEB01B9E180E6C7900ECD41C /* ViewController.m in Sources */,
+				CEB01B98180E6C7900ECD41C /* AppDelegate.m in Sources */,
+				CEB01B94180E6C7900ECD41C /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CEB01BA1180E6C7A00ECD41C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CEB01BB3180E6C7A00ECD41C /* TennisMatchTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CEB01BAB180E6C7A00ECD41C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CEB01B83180E6C7900ECD41C /* TennisMatch */;
+			targetProxy = CEB01BAA180E6C7A00ECD41C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CEB01B90180E6C7900ECD41C /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CEB01B91180E6C7900ECD41C /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		CEB01B99180E6C7900ECD41C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CEB01B9A180E6C7900ECD41C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CEB01BAF180E6C7A00ECD41C /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CEB01BB0180E6C7A00ECD41C /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CEB01BB4180E6C7A00ECD41C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		CEB01BB5180E6C7A00ECD41C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CEB01BB7180E6C7A00ECD41C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TennisMatch/TennisMatch-Prefix.pch";
+				INFOPLIST_FILE = "TennisMatch/TennisMatch-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				TARGETED_DEVICE_FAMILY = 1;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		CEB01BB8180E6C7A00ECD41C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TennisMatch/TennisMatch-Prefix.pch";
+				INFOPLIST_FILE = "TennisMatch/TennisMatch-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				TARGETED_DEVICE_FAMILY = 1;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		CEB01BBA180E6C7A00ECD41C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/TennisMatch.app/TennisMatch";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TennisMatch/TennisMatch-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "TennisMatchTests/TennisMatchTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		CEB01BBB180E6C7A00ECD41C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/TennisMatch.app/TennisMatch";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TennisMatch/TennisMatch-Prefix.pch";
+				INFOPLIST_FILE = "TennisMatchTests/TennisMatchTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CEB01B7F180E6C7900ECD41C /* Build configuration list for PBXProject "TennisMatch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CEB01BB4180E6C7A00ECD41C /* Debug */,
+				CEB01BB5180E6C7A00ECD41C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CEB01BB6180E6C7A00ECD41C /* Build configuration list for PBXNativeTarget "TennisMatch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CEB01BB7180E6C7A00ECD41C /* Debug */,
+				CEB01BB8180E6C7A00ECD41C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CEB01BB9180E6C7A00ECD41C /* Build configuration list for PBXNativeTarget "TennisMatchTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CEB01BBA180E6C7A00ECD41C /* Debug */,
+				CEB01BBB180E6C7A00ECD41C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CEB01B7C180E6C7900ECD41C /* Project object */;
+}
